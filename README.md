@@ -1,6 +1,6 @@
 # <img src="app/assets/icons/docdoc_logo.svg" alt="shopping logo" width="5%" height="auto" > Docdoc
 
-<img src="app/assets/images/bg.png" alt="" width="100%" height="auto" style="border-radius:2%"> 
+<img src="app/assets/images/product_overview.png" alt="" width="100%" height="auto" style="border-radius:2%"> 
 
 ## Project Directory Structure
 
