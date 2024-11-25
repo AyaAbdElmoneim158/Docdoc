@@ -7,6 +7,7 @@ class AppStrings {
   static const String bestDoctorAppointmentApp = 'Best Doctor\nAppointment App';
   static const String onboardingDescText =
       'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.';
+  static const String geStarted = 'Get Started';
 
   // Login.text - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   static const String loginTitle = 'Welcome Back';
@@ -17,7 +18,12 @@ class AppStrings {
   static const String loginSpan3 = ' and';
   static const String loginSpan4 = ' Privacy Policy';
   static const String dontHaveAnAccount = 'Don\'t have an account?';
-  static const String signUp = ' Sign Up';
+  static const String signUp = 'Sign Up';
+  static const String login = 'Login';
+  static const String forgotPassword = 'Forgot Password?';
 
-  // static const String  = '';
+  static const String email = 'Email';
+  static const String enterEmail = 'Please enter a valid email';
+  static const String password = 'Password';
+  static const String enterPassword = 'Please enter a valid password';
 }

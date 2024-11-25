@@ -1,5 +1,5 @@
 // ignore_for_file: unused_local_variable
-import '/features/login/ui/screens/login_screen.dart';
+import '../../features/login/ui/login_screen.dart';
 import '/features/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 import 'app_routes.dart';
