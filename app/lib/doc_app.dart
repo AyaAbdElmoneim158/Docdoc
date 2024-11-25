@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '/core/routing/app_routes.dart';
 import '/core/routing/app_routing.dart';
 import '/core/theme/colors.dart';
+import 'core/helpers/app_strings.dart';
 
 class DocApp extends StatelessWidget {
   const DocApp({super.key});
@@ -13,10 +14,11 @@ class DocApp extends StatelessWidget {
       designSize: const Size(375, 812),
       minTextAdapt: true,
       child: MaterialApp(
-        title: 'Doc App',
+        title: AppStrings.appTitle,
         theme: ThemeData(
           primaryColor: ColorsManager.primary100,
           scaffoldBackgroundColor: Colors.white,
+          fontFamily: AppStrings.appFont,
         ),
         debugShowCheckedModeBanner: false,
         initialRoute: AppRoutes.onBoardingScreen,

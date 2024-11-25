@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../../../core/helpers/app_assets.dart';
+import '../../../core/helpers/app_sizes.dart';
+import '../../../core/helpers/app_strings.dart';
 import '../../../core/theme/styles.dart';
 
 class DocLogoAndName extends StatelessWidget {
@@ -12,9 +15,11 @@ class DocLogoAndName extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SvgPicture.asset('assets/icons/docdoc_logo.svg'),
-        SizedBox(width: 10.w),
-        Text('DocDoc', style: TextStyles.font24BlackBold),
+        // 1-> Docdoc_Logo.Image  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        SvgPicture.asset(AppAssets.docdocLogo),
+        AppSizes.horizontalSpace(AppSizes.sm.w),
+        // 2-> DocDoc.Text  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        Text(AppStrings.docDoc, style: TextStyles.font24BlackBold),
       ],
     );
   }
