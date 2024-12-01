@@ -8,7 +8,8 @@ class AppAssets {
   static const String notifications = "assets/icons/notifications.svg";
 
   // Images - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-  static const String homeBluePattern = "app/assets/images/home_blue_pattern.png";
-  static const String onboardingDoctor = "app/assets/images/onboarding_doctor.png";
+  static const String homeBluePattern = "assets/images/home_blue_pattern.png";
+  static const String onboardingDoctor = "assets/images/onboarding_doctor.png";
   // static const String _ = "";
+  // "app\assets\images\onboarding_doctor.png"
 }

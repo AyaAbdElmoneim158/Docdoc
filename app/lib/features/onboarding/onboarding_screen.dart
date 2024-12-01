@@ -12,6 +12,7 @@ class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenContainer(
+      isBoarding: true,
       body: Column(
         children: [
           const DocLogoAndName(),
